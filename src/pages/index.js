@@ -4,7 +4,7 @@ import Colors from "../components/colors"
 import Quote from "../components/quote"
 
 const IndexPage = () => (
-  <div className="bg-white">
+  <div className="bg-white box-border">
     <div
       className="h-screen bg-gray-800"
       style={{ clipPath: "polygon(0 0, 100% 0, 100% 95%, 0% 99.5%)" }}
@@ -62,7 +62,7 @@ const IndexPage = () => (
               </div>
               <div className="w-16 h-0.5 rounded-xl bg-yellow-200 mr-10"></div>
             </div>
-            <div className="capitalize font-serif leading-tight text-7xl text-white text-right mt-6">
+            <div className="capitalize font-serif leading-tight text-6xl text-white text-right mt-6">
               a guy who loving technology and passionate in design
             </div>
           </div>
@@ -88,7 +88,7 @@ const IndexPage = () => (
       <div className="text-center uppercase text-3xl font-bold tracking-wide my-20">
         about me
       </div>
-      <div className="flex justify-around mt-20">
+      <div className="flex justify-around">
         <div className="w-5/12">
           <div className="flex items-center mt-24">
             <div className="uppercase text-4xl tracking-wide font-bold">
@@ -105,7 +105,70 @@ const IndexPage = () => (
             pariatur.
           </div>
         </div>
-        <img src={require("../images/About.png")} className="w-1/4 p-4 mr-4" />
+        <div className="w-1/4 p-4 mr-4 relative">
+          <img src={require("../images/About.png")} className="" />
+          <div className=" absolute top-2/4 -left-1/4 uppercase text-gray-900 text-4xl font-bold tracking-normal">
+            dimas<span className="text-white"> adji</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* section 3 */}
+    <div>
+      <div className="text-center uppercase text-3xl font-bold tracking-wide my-20">
+        PROJECT
+      </div>
+
+      <div className="flex pl-40 pb-28">
+        <div className="flex items-center">
+          <div className="relative shadow-2xl">
+            <div className="absolute -top-20 -left-20 text-10xl text-gray-500 opacity-50 font-semibold">
+              01
+            </div>
+            <div className="absolute top-20 -right-40 uppercase tracking-wide font-semibold text-yellow-300">
+              <div className="bg-yellow-300 tracking-wide w-20 h-0.5 inline-block mb-1 mr-8"></div>
+              web app
+            </div>
+            <div className="w-96 h-96 bg-green-400"></div>
+          </div>
+
+          <div className="ml-12">
+            <div className="uppercase text-4xl font-semibold tracking-normal text-gray-800 ">
+              judul
+            </div>
+            <div className="capitalize w-2/4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam,
+            </div>
+            <a href="#">read more</a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex flex-row-reverse justify-end items-center pr-40 pb-28 w-full">
+        <div className=" relative shadow-2xl">
+          <div className="absolute -top-20 left-60 text-10xl text-gray-500 opacity-50 font-semibold">
+            02
+          </div>
+          <div className=" absolute top-20 right-72 uppercase tracking-wide font-semibold text-yellow-300 w-60">
+            web app
+            <div className="bg-yellow-300 tracking-wide w-20 h-0.5 mb-1 ml-8 inline-block" />
+          </div>
+          <div className="w-96 h-96 bg-green-400"></div>
+        </div>
+
+        <div className="text-right mr-12">
+          <div className="uppercase text-4xl font-semibold tracking-normal text-gray-800 ">
+            judul
+          </div>
+          <div className="capitalize w-2/4 ml-auto">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam,
+          </div>
+          <a href="#">read more</a>
+        </div>
       </div>
     </div>
   </div>
