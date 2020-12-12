@@ -15,7 +15,7 @@ const About = () => {
       </div>
 
       <div className="sm:flex justify-around items-center">
-        <div className="p-4 sm:w-6/12">
+        <div className="p-4 md:w-6/12">
           <div className="flex items-center ">
             <div className="uppercase text-4xl tracking-wide font-bold">
               Hello.

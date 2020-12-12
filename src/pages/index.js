@@ -1,7 +1,4 @@
 import React from "react"
-
-import Colors from "../components/colors"
-import Quote from "../components/quote"
 import Header from "../components/header"
 import Section from "../components/section"
 import About from "../components/about"
