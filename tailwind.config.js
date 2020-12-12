@@ -29,6 +29,12 @@ module.exports = {
       "7xl": ["5rem", "1rem"],
       "10xl": ["14rem", "1"],
     },
+    backgroundColor: theme => ({
+      ...theme("colors"),
+      primary: "#0E2530",
+      secondary: "#F8F8F8",
+      danger: "#e3342f",
+    }),
   },
   variants: {
     extend: {},
