@@ -30,13 +30,16 @@ const Section = () => {
         </div>
         {/* Title */}
         <div className=" mr-6">
-          <div className="flex  flex-row-reverse items-center ">
-            <div className="uppercase text-yellow-200 text-sm text-right tracking-widest font-semibold">
+          <div
+            className="flex flex-row-reverse justify-center md:justify-start mt-10 md:mt-0
+          items-center "
+          >
+            <div className="uppercase text-yellow-200 text-sm md:text-right tracking-widest font-semibold">
               a portfolio guide
             </div>
-            <div className="w-16 h-0.5 rounded-xl bg-yellow-200 mr-10"></div>
+            <div className="hidden md:block w-16 h-0.5 rounded-xl bg-yellow-200 mr-10"></div>
           </div>
-          <div className="capitalize font-serif leading-tight text-6xl text-white text-right mt-6">
+          <div className="capitalize font-serif leading-tight text-4xl sm:text-4xl md:text-5xl mt-10 lg:text-6xl  text-white text-center md:text-right mt-10">
             a guy who loving technology and passionate in design
           </div>
         </div>
@@ -54,7 +57,7 @@ const Section = () => {
           </a>
         </div>
       </div>
-    </div>  
+    </div>
   )
 }
 

@@ -13,15 +13,16 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-around">
-        <div className="w-5/12">
-          <div className="flex items-center mt-20">
+
+      <div className="sm:flex justify-around items-center">
+        <div className="p-4 sm:w-6/12">
+          <div className="flex items-center ">
             <div className="uppercase text-4xl tracking-wide font-bold">
               Hello.
             </div>
             <div className="w-8/12 h-1 bg-yellow-200 ml-auto rounded-xl" />
           </div>
-          <div className="tracking-normal text-3xl text-justify mt-6">
+          <div className="tracking-normal text-xl lg:text-3xl text-justify mt-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -30,9 +31,9 @@ const About = () => {
             pariatur.
           </div>
         </div>
-        <div className="w-1/4 p-4 mr-4 relative">
+        <div className="w-1/4 p-4 mr-4 relative hidden md:block flex-shrink-0">
           <img src={require("../images/About.png")} className="" />
-          <div className=" absolute top-2/4 -left-1/4 uppercase text-gray-900 text-4xl font-bold tracking-normal">
+          <div className=" absolute top-2/4 -left-1/4 uppercase text-gray-900 text-4xl font-bold tracking-normal hidden lg:block">
             dimas<span className="text-white"> adji</span>
           </div>
         </div>

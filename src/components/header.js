@@ -5,8 +5,8 @@ const Header = () => {
 
   return (
     // <div className="flex-col md:flex justify-between items-center bg-primary text-white h-24">
-    <div className="text-white md:flex md:justify-between items-center text-right">
-      <div className="flex items-center justify-between p-10">
+    <div className="text-white sm:flex sm:justify-between items-center text-right">
+      <div className="flex items-center justify-between px-10 py-6">
         <div className="text-3xl md:text-4xl font-semibold lg:pl-10">
           <a href="#home">
             dimas<span className="text-yellow-300">af.</span>
