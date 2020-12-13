@@ -31,7 +31,7 @@ const About = () => {
             pariatur.
           </div>
         </div>
-        <div className="w-1/4 p-4 mr-4 relative hidden md:block flex-shrink-0">
+        <div className="w-1/4 p-4 mr-4 relative hidden md:block  flex-shrink-0">
           <img src={require("../images/About.png")} className="" />
           <div className=" absolute top-2/4 -left-1/4 uppercase text-gray-900 text-4xl font-bold tracking-normal hidden lg:block">
             dimas<span className="text-white"> adji</span>

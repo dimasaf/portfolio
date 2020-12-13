@@ -35,9 +35,21 @@ module.exports = {
       secondary: "#F8F8F8",
       danger: "#e3342f",
     }),
+    filter: {
+      // defaults to {}
+      none: "none",
+      grayscale: "grayscale(1)",
+      invert: "invert(1)",
+      sepia: "sepia(1)",
+    },
+    backdropFilter: {
+      // defaults to {}
+      none: "none",
+      blur: "blur(20px)",
+    },
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("tailwindcss-filters")],
 }
