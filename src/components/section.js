@@ -3,8 +3,8 @@ import React from "react"
 const Section = () => {
   return (
     <div className=" flex items-center justify-around bg-primary mt-20">
-      <div className="flex-col item-center content-center ">
-        <div className="text-white font-sans font-semibold transform rotate-90 mb-6 ">
+      <div className="flex-col item-center content-center text-center ">
+        <div className="text-white font-sans font-semibold transform rotate-90 mb-6 w-20">
           Follow us
         </div>
         <div className=" inline-block ">
@@ -23,7 +23,7 @@ const Section = () => {
           <div className="rounded-full h-56 w-56 border-4 relative">
             <img
               src={require("../images/Profil.png")}
-              className="rounded-full h-52 w-52 absolute bottom-1 left-1 filter-grayscale"
+              className="rounded-full h-52 w-52 absolute bottom-1 left-1 filter-grayscale hover:filter-none"
             />
           </div>
         </div>
@@ -38,16 +38,16 @@ const Section = () => {
             </div>
             <div className="hidden md:block w-16 h-0.5 rounded-xl bg-yellow-200 mr-10"></div>
           </div>
-          <div className="capitalize font-serif leading-tight text-4xl sm:text-4xl md:text-5xl mt-10 lg:text-6xl  text-white text-center md:text-right mt-10">
+          <div className="capitalize font-serif leading-tight text-xl sm:text-4xl md:text-5xl mt-10 lg:text-6xl text-white text-center md:text-right mt-10">
             a guy who loving technology and passionate in design
-            <div className="text-lg mt-8">
+            <div className="text-xs sm:text-lg sm:mt-2 md:mt-8">
               <a href="#about">scroll down</a>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex-col item-center content-center ">
-        <div className="text-white font-sans font-semibold transform rotate-90 mb-6 ">
+      <div className="flex-col item-center content-center text-center ">
+        <div className="text-white font-sans font-semibold transform rotate-90 mb-6 w-20">
           Follow us
         </div>
         <div className=" inline-block ">

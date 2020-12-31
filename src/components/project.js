@@ -96,9 +96,9 @@ const Project = () => {
             <div className="absolute -top-20 -left-20 text-10xl text-gray-500 opacity-50 font-semibold hidden lg:block">
               03
             </div>
-            <div className="absolute top-20 -right-32 uppercase tracking-wide font-semibold text-yellow-300 hidden xl:block">
+            <div className="absolute top-20 -right-40 uppercase tracking-wide font-semibold text-yellow-300 hidden xl:block">
               <div className="bg-yellow-300 tracking-wide w-20 h-0.5 inline-block mb-1 mr-8"></div>
-              app
+              apps &nbsp; &nbsp;
             </div>
             <img src={require("../images/Project_3.png")}></img>
           </div>
