@@ -20,10 +20,10 @@ const Section = () => {
       <div className=" flex-col w-8/12 text-center justify-self-center">
         {/* image */}
         <div className="inline-block ">
-          <div className="rounded-full h-56 w-56 border-4 relative">
+          <div className="rounded-full sm:h-56 sm:w-56 h-40 w-40 border-4 relative">
             <img
               src={require("../images/Profil.png")}
-              className="rounded-full h-52 w-52 absolute bottom-1 left-1 filter-grayscale hover:filter-none"
+              className="rounded-full sm:h-52 sm:w-52 h-36 w-36 absolute bottom-1 left-1 filter-grayscale hover:filter-none"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ const Section = () => {
           </div>
         </div>
       </div>
-      <div className="flex-col item-center content-center text-center ">
+      <div className="flex-col item-center content-center text-center  ">
         <div className="text-white font-sans font-semibold transform rotate-90 mb-6 w-20">
           Follow us
         </div>
