@@ -37,7 +37,7 @@ const Header = () => {
       </div>
       <div
         className={`${
-          menu ? "block" : "hidden"
+          menu ? "hidden" : "hidden"
         } sm:w-96 sm:flex px-10 sm:justify-around`}
       >
         <div>

@@ -7,7 +7,7 @@ import Project from "../components/project"
 const IndexPage = () => (
   <div className="bg-secondary box-border">
     <div
-      className="h-screen bg-primary"
+      className="h-min-screen bg-primary "
       style={{ clipPath: "polygon(0 0, 100% 0, 100% 95%, 0% 99.5%)" }}
     >
       {/* header */}
