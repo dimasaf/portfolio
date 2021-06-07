@@ -153,7 +153,7 @@ const Project = () => {
         description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
         image={
           <StaticImage
-            src="../images/Project_4.png"
+            src="../images/Project_5.png"
             alt="project 4"
             placeholder="blurred"
           />
